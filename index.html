@@ -16,8 +16,15 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+ 
+        /* Set display to none for image*/
+        #nonhomeimage {
+            display: none;
+        }
+    </style>
+
 </head>
-<body onload="document.getElementById("homebutton").click();">
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
   <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo-white.png" alt="logo" class="logo-1"> </a>
@@ -153,7 +160,7 @@
         <span class="section-title-line"></span> </div>
       <div class="filtering text-center mb-30" id="homebutton">
         <button type="button" data-filter='.dawn' class="active">Dawn</button>    
-        <button type="button" data-filter='.morning'>Morning</button>
+        <button type="button" onclick="show()" id="btnID" data-filter='.morning'>Morning</button>
         <button type="button" data-filter='.afternoon'>Afternoon</button>
         <button type="button" data-filter='.sunset'>Sunset</button>
         <button type="button" data-filter='.twilight'>Twilight</button>
@@ -223,8 +230,20 @@
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 morning no-padding">
-          <div class="item-img"> <a class="single-image" href="images/gall9.jpg"></a>
-            <div class="part-img"> <img src="images/gall9.jpg" alt="image">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="nonhomeimage" src="images/gall9.jpg" alt="image">
+        <script>
+        function show() {
+ 
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                    .style.display = "block";
+ 
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
               <div class="overlay-img">
                 <h4>Summer</h4>
                 <h6>Fun at the Seashores</h6>
