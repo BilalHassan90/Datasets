@@ -131,7 +131,7 @@ h6 {
 .nav-scroll .active {
 	position: relative;
 }
-.banner {
+.banner-overlay {
 	background-image:url(images/orig.png), url(images/lab.png);
 	background-repeat: no-repeat;
         background-blend-mode: lighten;
