@@ -133,6 +133,7 @@ h6 {
 }
 .banner {
 	background-image:url(images/orig.png), url(images/lab.png);
+	background-repeat: no-repeat;
         background-blend-mode: lighten;
 }
 .banner h1 {
