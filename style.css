@@ -132,14 +132,8 @@ h6 {
 	position: relative;
 }
 .banner {
-	background:url(images/orig.png) no-repeat 0% 0% / 100% 100%;
-	color:#ffffff;
-	text-align: center;
-	width: 100%;
-}
-.banner-overlay {
-	background:linear-gradient(to bottom, url(images/orig.png) 40%, url(images/lab.png) 60%);
-	padding:220px 0px 170px;
+	background-image:url(images/orig.png), url(images/lab.png);
+        background-blend-mode: lighten;
 }
 .banner h1 {
 	color:#ffffff;
