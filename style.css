@@ -323,9 +323,10 @@ h6 {
 	position: relative;
 }
 .portfolio .gallery .item-img .part-img img {
-	width: 100%;
+	width: 80%;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	style: border:1px solid black;
 }
 .portfolio .gallery .item-img .part-img .overlay-img {
 	position: absolute;
