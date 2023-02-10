@@ -168,9 +168,9 @@
         <button type="button" data-filter='.dawn' class="active">Dawn</button>    
         <button type="button" id="MorBtnID" data-filter='.morning'>Morning</button>
         <button type="button" id="AftBtnID" data-filter='.afternoon'>Afternoon</button>
-        <button type="button" onclick="show()" id="btnID" data-filter='.sunset'>Sunset</button>
-        <button type="button" onclick="show()" id="btnID" data-filter='.twilight'>Twilight</button>
-        <button type="button" onclick="show()" id="btnID" data-filter='.night'>Night</button>
+        <button type="button" id="SunBtnID" data-filter='.sunset'>Sunset</button>
+        <button type="button" id="TwiBtnID" data-filter='.twilight'>Twilight</button>
+        <button type="button" id="NigBtnID" data-filter='.night'>Night</button>
       </div>
       <br>
       <br>
@@ -247,8 +247,8 @@
       });
    </script>
                 <div class="overlay-img">
-                <h4>Summer</h4>
-                <h6>Fun at the Seashores</h6>
+                <h4>Morning</h4>
+                <h6>Image 1</h6>
               </div>
             </div>
           </div>                 
@@ -264,31 +264,184 @@
       });
    </script>
                 <div class="overlay-img">
-                <h4>Dawn</h4>
-                <h6>Annotation 3</h6>
+                <h4>Morning</h4>
+                <h6>Image 2</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="MorningImg3" src="images/Morning 505.png" alt="image" style="display: none;">
+   <script>
+      const MorBtn3 = document.getElementById("MorBtnID");
+      const MorImg3 = document.getElementById("MorningImg3"); 
+      MorBtn3.addEventListener("click", () => { 
+         MorImg3.style.display = "block"; 
+      });
+   </script>
+                <div class="overlay-img">
+                <h4>Morning</h4>
+                <h6>Image 3</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+            <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="MorningImg4" src="images/Morning 125L.png" alt="image" style="display: none;">
+   <script>
+      const MorBtn4 = document.getElementById("MorBtnID");
+      const MorImg4 = document.getElementById("MorningImg4"); 
+      MorBtn4.addEventListener("click", () => { 
+         MorImg4.style.display = "block"; 
+      });
+   </script>
+                <div class="overlay-img">
+                <h4>Morning</h4>
+                <h6>Annotation 1</h6>
+              </div>
+            </div>
+          </div>                 
+        </div>                 
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="MorningImg5" src="images/Morning 316L.png" alt="image" style="display: none;">
+   <script>
+      const MorBtn5 = document.getElementById("MorBtnID");
+      const MorImg5 = document.getElementById("MorningImg5"); 
+      MorBtn5.addEventListener("click", () => { 
+         MorImg5.style.display = "block"; 
+      });
+   </script>
+                <div class="overlay-img">
+                <h4>Morning</h4>
+                <h6>Annotation 2</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="MorningImg6" src="images/Morning 505L.png" alt="image" style="display: none;">
+   <script>
+      const MorBtn6 = document.getElementById("MorBtnID");
+      const MorImg6 = document.getElementById("MorningImg6"); 
+      MorBtn6.addEventListener("click", () => { 
+         MorImg6.style.display = "block"; 
+      });
+   </script>
+                <div class="overlay-img">
+                <h4>Morning</h4>
+                <h6>Image 3</h6>
               </div>
             </div>
           </div>
         </div>
           <div class="col-lg-4 col-sm-6 afternoon no-padding">
           <div class="item-img"> <a class="single-image"></a>
-            <div class="part-img"> <img id="nonhomeimage3" src="images/gall9.jpg" alt="image" style="display: none;">
+            <div class="part-img"> <img id="AfternoonImg1" src="images/Afternoon 029.png" alt="image" style="display: none;">
    <script>
       const AftBtn1 = document.getElementById("AftBtnID");
-      const AftImg1 = document.getElementById("nonhomeimage3"); 
+      const AftImg1 = document.getElementById("AfternoonImg1"); 
       AftBtn1.addEventListener("click", () => { 
          AftImg1.style.display = "block"; 
       });
    </script>
               <div class="overlay-img">
-                <h4>Summer</h4>
-                <h6>Fun at the Seashores</h6>
+                <h4>Afternoon</h4>
+                <h6>Image 1</h6>
               </div>
             </div>
           </div>
         </div>          
-      </div>        
-  </div>     
+          <div class="col-lg-4 col-sm-6 afternoon no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="AfternoonImg2" src="images/Afternoon 574.png" alt="image" style="display: none;">
+   <script>
+      const AftBtn2 = document.getElementById("AftBtnID");
+      const AftImg2 = document.getElementById("AfternoonImg2"); 
+      AftBtn2.addEventListener("click", () => { 
+         AftImg2.style.display = "block"; 
+      });
+   </script>
+              <div class="overlay-img">
+                <h4>Afternoon</h4>
+                <h6>Image 2</h6>
+              </div>
+            </div>
+          </div>
+        </div>          
+          <div class="col-lg-4 col-sm-6 afternoon no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="AfternoonImg3" src="images/Afternoon 642.png" alt="image" style="display: none;">
+   <script>
+      const AftBtn3 = document.getElementById("AftBtnID");
+      const AftImg3 = document.getElementById("AfternoonImg3"); 
+      AftBtn3.addEventListener("click", () => { 
+         AftImg3.style.display = "block"; 
+      });
+   </script>
+              <div class="overlay-img">
+                <h4>Afternoon</h4>
+                <h6>Image 3</h6>
+              </div>
+            </div>
+          </div>
+        </div>          
+          <div class="col-lg-4 col-sm-6 afternoon no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="AfternoonImg4" src="images/Afternoon 029L.png" alt="image" style="display: none;">
+   <script>
+      const AftBtn4 = document.getElementById("AftBtnID");
+      const AftImg4 = document.getElementById("AfternoonImg4"); 
+      AftBtn4.addEventListener("click", () => { 
+         AftImg4.style.display = "block"; 
+      });
+   </script>
+              <div class="overlay-img">
+                <h4>Afternoon</h4>
+                <h6>Annotation 1</h6>
+              </div>
+            </div>
+          </div>
+        </div>          
+          <div class="col-lg-4 col-sm-6 afternoon no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="AfternoonImg5" src="images/Afternoon 574L.png" alt="image" style="display: none;">
+   <script>
+      const AftBtn5 = document.getElementById("AftBtnID");
+      const AftImg5 = document.getElementById("AfternoonImg5"); 
+      AftBtn5.addEventListener("click", () => { 
+         AftImg5.style.display = "block"; 
+      });
+   </script>
+              <div class="overlay-img">
+                <h4>Afternoon</h4>
+                <h6>Annotation 2</h6>
+              </div>
+            </div>
+          </div>
+        </div>          
+          <div class="col-lg-4 col-sm-6 afternoon no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img id="AfternoonImg6" src="images/Afternoon 642L.png" alt="image" style="display: none;">
+   <script>
+      const AftBtn6 = document.getElementById("AftBtnID");
+      const AftImg6 = document.getElementById("AfternoonImg6"); 
+      AftBtn6.addEventListener("click", () => { 
+         AftImg6.style.display = "block"; 
+      });
+   </script>
+              <div class="overlay-img">
+                <h4>Afternoon</h4>
+                <h6>Image 3</h6>
+              </div>
+            </div>
+          </div>
+        </div>          
+</div>        
+</div>     
 </div>
 </div>
     
