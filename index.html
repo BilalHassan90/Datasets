@@ -166,7 +166,7 @@
         <span class="section-title-line"></span> </div>
       <div class="filtering text-center mb-30" id="homebutton">
         <button type="button" data-filter='.dawn' class="active">Dawn</button>    
-        <button type="button" onclick="showMorning()">Morning</button>
+        <button type="button" onclick="showMorning()" id="btnID" data-filter='.morning'>Morning</button>
         <button type="button" onclick="showAfternoon()" id="btnID" data-filter='.afternoon'>Afternoon</button>
         <button type="button" onclick="showSunset()" id="btnID" data-filter='.sunset'>Sunset</button>
         <button type="button" onclick="showTwilight()" id="btnID" data-filter='.twilight'>Twilight</button>
@@ -236,7 +236,7 @@
             </div>
           </div>
         </div>
-        <div id="morning" class="col-lg-4 col-sm-6 no-padding">
+        <div id="morn" class="col-lg-4 col-sm-6 morning no-padding">
             <div class="item-img"> <a class="single-image"></a>
             <div class="part-img"> <img src="images/Morning 125.png" alt="image">
                 <div class="overlay-img">
@@ -246,7 +246,7 @@
             </div>
           </div>
         </div>
-        <div id="morning" class="col-lg-4 col-sm-6 no-padding">
+        <div id="morn" class="col-lg-4 col-sm-6 morning no-padding">
           <div class="item-img"> <a class="single-image"></a>
             <div class="part-img"> <img src="images/Morning 316.png" alt="image">
                 <div class="overlay-img">
@@ -258,7 +258,7 @@
         </div>
 <script>
 function showMorning() {
-  var x = document.getElementById('id="morning"');
+  var x = document.getElementById('id="morn"');
   if (x.style.display === 'none') {
     x.style.display = 'block';
   } else {
