@@ -236,8 +236,7 @@
             </div>
           </div>
         </div>
-        <script>
-        function showMorning() {
+        <div id="MorningImgs">
         <div class="col-lg-4 col-sm-6 morning no-padding">
             <div class="item-img"> <a class="single-image"></a>
             <div class="part-img"> <img src="images/Morning 125.png" alt="image">
@@ -258,8 +257,7 @@
             </div>
           </div>
         </div>
-        }
-    </script>
+        </div>
           <div class="col-lg-4 col-sm-6 afternoon no-padding">
           <div class="item-img"> <a class="single-image"></a>
             <div class="part-img"> <img id="nonhomeimage3" src="images/gall9.jpg" alt="image">
@@ -284,6 +282,17 @@
   </div>
 </div>
         </div>
+    
+            <script>
+        function showMorning() {
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('MorningImgs')
+                    .style.display = "block";
+ 
+
+        }
+    </script>
     
 <!-- End Gallery -->
 <!-- Testimonials -->
