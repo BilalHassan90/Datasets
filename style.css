@@ -323,17 +323,19 @@ h6 {
 	position: relative;
 }
 .portfolio .gallery .item-img .part-img img {
-	width: 100%;
+	width: 85%;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	border: 3px groove #9780A5;
+	border: 3px solid #FFFFFF;
+	border-radius: 2%;
 }
 .portfolio .gallery .item-img .part-img .overlay-img {
 	position: absolute;
 	top: 0;
-	width: 80%;
-	height: 80%;
+	width: 85%;
+	height: 85%;
 	overflow: hidden;
+	border-radius: 2%;
 }
 .portfolio .gallery .item-img .part-img .overlay-img:after {
 	content: '';
