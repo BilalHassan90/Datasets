@@ -166,7 +166,7 @@
         <span class="section-title-line"></span> </div>
       <div class="filtering text-center mb-30" id="homebutton">
         <button type="button" data-filter='.dawn' class="active">Dawn</button>    
-        <button type="button" value="Morning" onclick="showMorning();" />
+        <button type="button" onclick="showMorning()" id="btnID" data-filter='.morning'>Morning</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.afternoon'>Afternoon</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.sunset'>Sunset</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.twilight'>Twilight</button>
@@ -236,6 +236,30 @@
             </div>
           </div>
         </div>
+        <script>
+        function showMorning() {
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+            <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img src="images/Morning 125.png" alt="image">
+                <div class="overlay-img">
+                <h4>Summer</h4>
+                <h6>Fun at the Seashores</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 morning no-padding">
+          <div class="item-img"> <a class="single-image"></a>
+            <div class="part-img"> <img src="images/Morning 316.png" alt="image">
+                <div class="overlay-img">
+                <h4>Dawn</h4>
+                <h6>Annotation 3</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        }
+    </script>
           <div class="col-lg-4 col-sm-6 afternoon no-padding">
           <div class="item-img"> <a class="single-image"></a>
             <div class="part-img"> <img id="nonhomeimage3" src="images/gall9.jpg" alt="image">
@@ -261,32 +285,6 @@
 </div>
         </div>
     
-        <script>
-        function showMorning() {
-      <div class="gallery no-padding col-lg-12 col-sm-12">
-        <div class="col-lg-4 col-sm-6 morning no-padding">
-            <div class="item-img"> <a class="single-image"></a>
-            <div class="part-img"> <img src="images/Morning 125.png" alt="image">
-                <div class="overlay-img">
-                <h4>Summer</h4>
-                <h6>Fun at the Seashores</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 morning no-padding">
-          <div class="item-img"> <a class="single-image"></a>
-            <div class="part-img"> <img src="images/Morning 316.png" alt="image">
-                <div class="overlay-img">
-                <h4>Dawn</h4>
-                <h6>Annotation 3</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        }
-    </script>
 <!-- End Gallery -->
 <!-- Testimonials -->
 <div class="testimonials">
