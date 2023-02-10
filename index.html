@@ -166,7 +166,7 @@
         <span class="section-title-line"></span> </div>
       <div class="filtering text-center mb-30" id="homebutton">
         <button type="button" data-filter='.dawn' class="active">Dawn</button>    
-        <button type="button" onclick="showMorning()" id="btnID" data-filter='.morning'>Morning</button>
+        <button type="button" id="MorBtnID" data-filter='.morning'>Morning</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.afternoon'>Afternoon</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.sunset'>Sunset</button>
         <button type="button" onclick="show()" id="btnID" data-filter='.twilight'>Twilight</button>
@@ -238,7 +238,14 @@
         </div>
         <div class="col-lg-4 col-sm-6 morning no-padding">
             <div class="item-img"> <a class="single-image"></a>
-            <div class="part-img"> <img id="MorningImgs" src="images/Morning 125.png" alt="image">
+            <div class="part-img"> <img id="MorningImg1" src="images/Morning 125.png" alt="image" style="display: none;">
+   <script>
+      const MorBtn1 = document.getElementById("MorBtnID");
+      const MorImg1 = document.getElementById("MorningImg1"); 
+      MorBtn1.addEventListener("click", () => { 
+         MorImg1.style.display = "block"; 
+      });
+   </script>
                 <div class="overlay-img">
                 <h4>Summer</h4>
                 <h6>Fun at the Seashores</h6>
@@ -248,7 +255,14 @@
         </div>                 
         <div class="col-lg-4 col-sm-6 morning no-padding">
           <div class="item-img"> <a class="single-image"></a>
-            <div class="part-img"> <img id="MorningImgs" src="images/Morning 316.png" alt="image">
+            <div class="part-img"> <img id="MorningImg2" src="images/Morning 316.png" alt="image">
+   <script>
+      const MorBtn2 = document.getElementById("MorBtnID");
+      const MorImg2 = document.getElementById("MorningImg2"); 
+      MorBtn2.addEventListener("click", () => { 
+         MorImg2.style.display = "block"; 
+      });
+   </script>
                 <div class="overlay-img">
                 <h4>Dawn</h4>
                 <h6>Annotation 3</h6>
@@ -274,15 +288,7 @@
             </div>
           </div>
         </div>          
-      </div>
-<script>
-        function showMorning() {
-            /* Access image by id and change
-            the display property to block*/
-            document.getElementById('MorningImgs')
-                    .style.display = "block";
-        }
-</script>            
+      </div>        
   </div>     
 </div>
 </div>
