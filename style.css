@@ -21,7 +21,7 @@ a {
 	text-decoration: none !important;
 }
 a:hover {
-	color: #ffaf53 !important;
+	color: #ab2f52 !important;
 }
 img {
 	max-width: 100%;
@@ -80,7 +80,7 @@ h6 {
 	z-index: 1030;
 }
 .navbar .active {
-	color: #ffaf53 !important;
+	color: #ab2f52 !important;
 }
 .navbar .navbar-brand {
 }
