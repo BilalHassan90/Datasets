@@ -146,7 +146,9 @@ h6 {
 }
 .banner p {
 	margin:15px auto 15px;
-	max-width: 670px
+	max-width: 670px;
+	color: #000000;
+
 }
 .banner-btn {
 	background: #ab2f52;
