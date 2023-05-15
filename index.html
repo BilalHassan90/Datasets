@@ -2,7 +2,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 <title>O2DTD Dataset</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -172,6 +188,52 @@
 
 Autonomous vehicle technologies rely heavily on freespace detection for visual perception and route planning. In the preceding decade, it was demonstrated that freespace detection methods based on deep learning are viable. However, these attempts primarily dealt with urban on-road environments, and few deep learning-based algorithms were developed for free space detection in off-road scenarios. Nevertheless, to our knowledge, no work has been reported for detecting desert freespace due to the absence of relevant datasets and benchmarks. For research purposes, we curated a new dataset named Off-Road Open Desert Trail Detection (O2DTD), which is the first dataset on desert freespace detection. The dataset was collected with six different light conditions (dawn, morning, afternoon, sunset, twilight, and night), containing a total of 5,045 RGB images, as summarized in Table I. Moreover, as can be seen in the attached demo, each image is labeled with three classes consisting of the sky (blue), ground (brown), and trail (gray) regions.
 
+
+
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+
+              
+              
 Table I: Summary of the proposed off-road open desert trail detection (O2DTD) dataset
 
 |Type|Original Images|Labels|Split Ratio|
