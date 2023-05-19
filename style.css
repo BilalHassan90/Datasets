@@ -68,6 +68,7 @@ h6 {
 	font-weight: bold;
 }
 table {
+  text-align: center;
   border-collapse: collapse;
   width: 80%;
 }
