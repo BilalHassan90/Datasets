@@ -179,9 +179,9 @@ as summarized in Table below. Moreover, each image is labeled with three classes
     <th colspan="3">Split Ratio</th>
   </tr>
   <tr>
-    <th>Train (70%)</td>
-    <th>Validation (10%)</td>
-    <th>Test (20%)</td>
+    <th>Train (70%)</th>
+    <th>Validation (10%)</th>
+    <th>Test (20%)</th>
   </tr>
   <tr>
     <td>Dawn</td>
@@ -238,9 +238,37 @@ as summarized in Table below. Moreover, each image is labeled with three classes
               
               
 <p>
-
 All the images and ground truth labels in the dataset are stored in PNG format with 360×480 resolution, making it easy to use. Besides, we have randomly split the dataset for each illumination condition in the ratio of 70:10:20 for training, validation, and testing purposes of the model. These images and labels are stored separately in sub-folders inside the main directory, “O2DTD Dataset”. Further, we have provided the ground truth labels in two formats (single channel and RGB). Table II provides the annotation details.
 </p>
+<br>
+<table>
+    <tr>
+    <th rowspan="2">Class</th>
+    <th>Single Channel</th>
+    <th>RGB</th>
+  </tr>
+  <tr>
+    <th>Pixel Value</th>
+    <th>Color Palette</th>
+    </tr>
+  <tr>
+    <td>Sky</td>
+    <td>1</td>
+    <td>(147, 196, 227)</td>
+  </tr>
+  <tr>
+    <td>Ground</td>
+    <td>2</td>
+    <td>(247, 223, 188)</td>
+  </tr>
+  <tr>
+    <td>Trail</td>
+    <td>2</td>
+    <td>(177, 162, 142)</td>
+  </tr>
+    
+  </table>
+
 Table II:  Ground truth annotation details for the O2DTD dataset
 
 |Class|Single Channel|RGB|
