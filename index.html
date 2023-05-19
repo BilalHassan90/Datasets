@@ -238,9 +238,14 @@ as summarized in Table below. Moreover, each image is labeled with three classes
               
               
 <p>
-All the images and ground truth labels in the dataset are stored in PNG format with 360×480 resolution, making it easy to use. Besides, we have randomly split the dataset for each illumination condition in the ratio of 70:10:20 for training, validation, and testing purposes of the model. These images and labels are stored separately in sub-folders inside the main directory, “O2DTD Dataset”. Further, we have provided the ground truth labels in two formats (single channel and RGB). Table II provides the annotation details.
+All the images and ground truth labels in the dataset are stored in PNG format with 576 × 768 resolution, making it easy to use. Besides, we have randomly 
+    split the dataset for each illumination condition in the ratio of 70:10:20 for training, validation, and testing purposes of the model. These images and 
+    labels are stored separately in sub-folders inside the main directory. Further, we have provided the ground truth labels in two formats 
+    (single channel and RGB). Table II provides the annotation details.
 </p>
 <br>
+Table II:  Ground truth annotation details for the O2DTD dataset
+
 <table>
     <tr>
     <th rowspan="2">Class</th>
@@ -267,16 +272,7 @@ All the images and ground truth labels in the dataset are stored in PNG format w
     <td>(177, 162, 142)</td>
   </tr>
     
-  </table>
-
-Table II:  Ground truth annotation details for the O2DTD dataset
-
-|Class|Single Channel|RGB|
-| :-: | :- | :-: |
-||Pixel Value|Color Palette|
-|Sky|1|(77, 190, 238)|
-|Ground|2|(160, 130, 95)|
-|Trail|3|(160, 160, 160)|              
+  </table>      
               
           </div>
         </div>
