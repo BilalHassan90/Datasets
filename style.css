@@ -76,11 +76,14 @@ table {
 
 td, th {
   text-align: center;
-  border: 1px solid 808080;
+  border: 1px solid #000000;
   padding: 8px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(1) {
+  background-color: #dddddd;
+}
+tr:nth-child(2) {
   background-color: #dddddd;
 }
 .navbar {
