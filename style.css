@@ -272,6 +272,7 @@ tr:nth-child(2) {
 .service-box2 {
 	padding: 50px;
 	border-radius: 4px;
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 }
 .service-box .icon {
 }
